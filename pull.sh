@@ -2,7 +2,7 @@
 # Pull my custom code from github
 
 PS3='Choose project: '
-options=('podplayer' 'clock7' 'minioled' 'thermometer' 'quit')
+options=('podplayer' 'clock7' 'minioled' 'thermometer' 'hifi' 'quit')
 select project in "${options[@]}"
 do
 	case $project in
@@ -17,6 +17,9 @@ do
 			;;
 		'thermometer')
 			git clone git://github.com/andytopham/thermometer.git
+			;;
+		'hifi')
+			git clone git://github.com/andytopham/hifi.git
 			;;
 		'quit')
 			break
