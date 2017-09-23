@@ -2,7 +2,7 @@
 # Pull my custom code from github
 
 PS3='Choose project: '
-options=('podplayer' 'clock7' 'minioled' 'thermometer' 'hifi' 'quit')
+options=('podplayer' 'clock7' 'minioled' 'thermometer' 'hifi' 'weather' 'quit')
 select project in "${options[@]}"
 do
 	case $project in
