@@ -21,7 +21,11 @@ do
 		'hifi')
 			git clone git://github.com/andytopham/hifi.git
 			;;
+		'weather')
+			git clone git://github.com/andytopham/weather.git
+			;;
 		'quit')
+			echo 'Use this filemask with winscp: | */ , *.pyc '
 			break
 			;;
 		*)
